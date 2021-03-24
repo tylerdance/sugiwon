@@ -1,14 +1,78 @@
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
+  /* margin-bottom: 10px; */
+  font-family: 'Shadows Into Light', cursive;
 }
 
 #header {
   display: flex;
   justify-content: center;
   color: white;
+  font-size: 100px;
+  letter-spacing: 1px;
+  margin: 5px;
 }
 
 .syzzle {
   display: flex;
   justify-content: center;
+}
+
+#audio-players {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#falling-players {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#syzzle-spotify-player {
+  border-radius: 2%;
+}
+
+#falling-spotify-player {
+  border-radius: 2%;
+}
+
+#spotify-player {
+  border-radius: 2%;
+}
+
+#falling-pics {
+  margin-top: 75px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#falling-credits {
+  width: 33.333%;
+  min-width: 175px;
+}
+#falling-artwork {
+  width: 33.333%;
+  min-width: 175px;
+}
+#falling-panel {
+  width: 33.333%;
+  min-width: 175px;
+}
+
+#social-media-icons {
+  display: flex;
+  justify-content: center;
+}
+
+
+.social-icon {
+  width: 39px;
+  padding: 10px;
+}
+.social-icon.hover {
+  opacity: 50%;
 }
