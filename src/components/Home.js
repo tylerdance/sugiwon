@@ -5,7 +5,6 @@ function Home () {
     return (
         <div>
             <MainVideo />
-            {/* <Falling /> */}
 
             <div id="syzzle-fill">
 
