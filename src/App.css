@@ -1,7 +1,7 @@
 body {
   background-color: rgb(0, 0, 0);
   /* margin-bottom: 10px; */
-  font-family: 'Shadows Into Light', cursive;
+  /* font-family: 'Shadows Into Light', cursive; */
 }
 
 #header {
@@ -13,12 +13,98 @@ body {
   margin: 5px;
 }
 
-#syzzle-fill {
-  /* min-height: 100vh;
-  margin: 0px; */
-  /* position: relative; */
+#sugiwon {
+  float: left;
+  color: white;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+#sugiwon.hover {
+  color: white;
 }
 
+#contact-form {
+  color: white;
+  padding-top: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#input-email {
+  width: 300px;
+}
+
+#nav-div {
+  height: 90px;
+}
+
+.nav-item {
+  color: white;
+  /* font-size: 22px; */
+  letter-spacing: 1px;
+  /* border: 1px solid white; */
+  padding: 20px;
+  padding-top: 20px;
+  /* padding-top: 15px; */
+  /* margin-bottom: 50px; */
+  display: flex;
+  float: right;
+}
+
+#contact-form {
+  color: white;
+
+}
+
+#disc-master-div {
+  position: relative;
+  margin-top: 0px;
+  padding-top: 0px;
+  /* background-color: green; */
+  /* max-width: 100%; */
+}
+
+#disc {
+  color: white;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* background-color: green; */
+  /* height: 40px; */
+}
+
+.disc-each {
+  max-width: 300px;
+}
+
+.song-title {
+  font-size: 20px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.disc-art {
+  /* margin-top: 200px; */
+  width: 300px;
+  /* padding: 20px; */
+}
+
+#message-body {
+  height: 200px;
+}
+
+
+
+
+
+
+#main-vid-div {
+  padding-top: 100px;
+}
 
 .player-wrapper {
   position: relative;
@@ -81,13 +167,23 @@ body {
 }
 
 #social-media-icons {
+  position: fixed;
+  bottom: 0;
   display: flex;
-  justify-content: center;
+  /* margin-left: 33%; */
+  background-color: black;
+  width: 100%;
+  /* justify-content: center; */
+}
+
+#socials-sub-div {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
 .social-icon {
-  width: 39px;
+  width: 50px;
   padding: 10px;
 }
 .social-icon.hover {
