@@ -18,7 +18,7 @@ body {
   color: white;
   letter-spacing: 1px;
   padding-top: 0px;
-  padding-left: 20px;
+  padding-left: 15px;
   text-decoration: none;
 }
 #sugiwon.hover {
@@ -27,7 +27,7 @@ body {
 
 #contact-form {
   color: white;
-  padding-top: 300px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
 }
@@ -40,13 +40,14 @@ body {
   height: 90px;
 }
 
+
 .nav-item {
   color: white;
-  /* font-size: 22px; */
+  font-size: 14px;
   letter-spacing: 1px;
   /* border: 1px solid white; */
   padding: 20px;
-  padding-top: 20px;
+  padding-top: 17px;
   /* padding-top: 15px; */
   /* margin-bottom: 50px; */
   display: flex;
@@ -68,7 +69,8 @@ body {
 
 #disc {
   color: white;
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -103,7 +105,7 @@ body {
 
 
 #main-vid-div {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .player-wrapper {
@@ -146,7 +148,7 @@ body {
 }
 
 #falling-pics {
-  margin-top: 206px;
+  margin-top: 130px;
   /* margin-bottom: 5px; */
   display: flex;
   flex-wrap: wrap;
@@ -166,6 +168,10 @@ body {
   min-width: 135px;
 }
 
+.nav-color {
+  background-color: black;
+}
+
 #social-media-icons {
   position: fixed;
   bottom: 0;
@@ -173,7 +179,7 @@ body {
   /* margin-left: 33%; */
   background-color: black;
   width: 100%;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 #socials-sub-div {

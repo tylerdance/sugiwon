@@ -4,15 +4,15 @@ function Contact () {
             <div id="contact-form">
                 <form>
                     <div className="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp" />
+                        <label for="input-email">Your email</label>
+                        <input type="email" class="form-control" id="input-email" />
                     </div>
                     <div>
                         <label for="input-message">Messsge</label>
-                        <input id="message-body" type="text" class="form-control"></input>
+                        <textarea id="message-body" type="text" class="form-control"></textarea>
                     </div>
                     <br />
-                    <button>Send</button>
+                    <button class="btn btn-light">Send</button>
                 </form>
 
             </div>
