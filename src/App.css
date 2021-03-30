@@ -1,5 +1,6 @@
 body {
   background-color: rgb(0, 0, 0);
+  overflow-y: scroll;
   /* margin-bottom: 10px; */
   /* font-family: 'Shadows Into Light', cursive; */
 }
@@ -80,6 +81,17 @@ body {
 
 .disc-each {
   max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.prod-by {
+  margin: 0px;
+}
+
+.music-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
 }
 
 .song-title {
@@ -93,6 +105,21 @@ body {
   /* margin-top: 200px; */
   width: 300px;
   /* padding: 20px; */
+}
+
+#falling-prodcredits-div {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#falling-prodcredits {
+  width: 700px;
+  max-width: 100%;
+}
+
+.falling-cred-link {
+  color: white;
 }
 
 #message-body {
@@ -130,7 +157,7 @@ body {
 
 #falling-players {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 150px;
   display: flex;
   justify-content: space-evenly;
 }
