@@ -3,9 +3,9 @@ function Falling () {
         <div>
             <div id="falling">
                 <div id="falling-pics">
-                    <img id="falling-artwork" src="https://res.cloudinary.com/df3zbbtc1/image/upload/v1616603125/sugiwon/Falling_Final_no_parental_sizing_correct_insta-01_iv0wct.jpg" alt="" />
-                    <img id="falling-panel" src="https://res.cloudinary.com/df3zbbtc1/image/upload/v1616603133/sugiwon/third_panel_3_insta-01_jqpxto.jpg" alt="" />
-                    <img id="falling-credits" src="https://res.cloudinary.com/df3zbbtc1/image/upload/v1616603117/sugiwon/Falling_Final_back_cover_2_insta-01_pyb544.jpg" alt="" />
+                    <img className="falling-artwork" src="https://res.cloudinary.com/df3zbbtc1/image/upload/v1616603125/sugiwon/Falling_Final_no_parental_sizing_correct_insta-01_iv0wct.jpg" alt="" />
+                    <img className="falling-artwork" src="https://res.cloudinary.com/df3zbbtc1/image/upload/v1616603133/sugiwon/third_panel_3_insta-01_jqpxto.jpg" alt="" />
+                    <img className="falling-artwork" src="https://res.cloudinary.com/df3zbbtc1/image/upload/v1616603117/sugiwon/Falling_Final_back_cover_2_insta-01_pyb544.jpg" alt="" />
                 </div>
 
                 <div id="falling-players">

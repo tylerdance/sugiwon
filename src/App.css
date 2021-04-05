@@ -182,17 +182,10 @@ body {
 
 }
 
-#falling-credits {
+.falling-artwork {
   width: 33.333%;
   min-width: 135px;
-}
-#falling-artwork {
-  width: 33.333%;
-  min-width: 135px;
-}
-#falling-panel {
-  width: 33.333%;
-  min-width: 135px;
+  max-height: 100%;
 }
 
 .nav-color {
