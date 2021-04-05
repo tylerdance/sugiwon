@@ -184,8 +184,8 @@ body {
 
 .falling-artwork {
   width: 33.333%;
-  min-width: 135px;
-  max-height: 135px;
+  /* min-width: 135px; */
+  /* max-height: 135px; */
 }
 
 .nav-color {
