@@ -179,11 +179,13 @@ body {
   /* margin-bottom: 5px; */
   display: flex;
   flex-wrap: wrap;
+  object-fit: cover;
 
 }
 
 .falling-artwork {
   width: 33.333%;
+  object-fit: cover;
   /* min-width: 135px; */
   /* max-height: 135px; */
 }
