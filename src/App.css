@@ -37,6 +37,12 @@ body {
   width: 300px;
 }
 
+#hamburger-div {
+  display: flex;
+  flex: auto;
+  float: right;
+}
+
 #nav-div {
   height: 90px;
 }
@@ -51,7 +57,7 @@ body {
   padding-top: 17px;
   /* padding-top: 15px; */
   /* margin-bottom: 50px; */
-  display: flex;
+  /* display: flex; */
   float: right;
 }
 
